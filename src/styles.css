@@ -1,0 +1,95 @@
+
+.businessCard{
+    width: 300px;
+    border-radius: 10px;
+    background-color: #1A1B21;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.avatar{
+    background-image: url('./img/Sachin.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    border: 0px solid;
+}
+body{
+    background-color: #23252C;
+}
+
+.header{
+    display: block;
+    margin-top:10px;
+}
+
+.header > p{
+    display: flex;
+    justify-content: center;
+    margin:5px;
+}
+
+.details{
+    padding: 10px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.contacts > button{
+    padding:5px 10px;
+}
+
+footer{
+    padding: 10px 50px;
+    background-color: #161619;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > button{
+    padding :10px;
+    background-color: transparent;
+    border: none;
+    background-size: contain;
+}
+
+.facebook-button{
+ background-image: url('./img/Facebook.png');
+}
+
+.twitter-button{
+    background-image: url('./img/Twitter.png');
+   }
+
+.instagram-button{
+    background-image: url('./img/Instagram.png');
+   }
+
+.git-button{
+    background-image: url('./img/GitHub.png');
+   }
+.name{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.title{
+    font-size: medium;
+    color: #F3BF99;
+}
+
+.username{
+    font-size: small;
+}
